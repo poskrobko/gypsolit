@@ -1,5 +1,6 @@
 @primary-font-size: 1em;
 @primary-font-weight: bold;
+@primary-font-family: "Arial";
 header {
    background-image: url(background-gypsolit.png);
    font-family: 'Open Sans', sans-serif;
@@ -122,10 +123,12 @@ header {
        font-size: 11px; 
    }
 }
+
 .position {
    float: left;
    position: absolute;
 }
+
 .preview {
     background-color: white;
     .preview-item {
@@ -135,46 +138,47 @@ header {
        text-align: center;
        font-weight: @primary-font-weight;
        font-size: 25px;
-       font-family: "Arial";
+       font-family: @primary-font-family;
     }
     .preview-table-text{
         float: left;
-        margin-bottom: 120px;
+        margin-bottom: 110px;
         margin-top: 5em;
+        margin-left: 5em;
         width: 250px;
+        height: 15em;
         text-align: center;
         font-size: 13px;
-        font-family: "Arial";
+        font-family: @primary-font-family ;
     }
     .preview-text {
         text-align: center;
         font-size: 16px;
         margin: 40px;
-        font-family: "Arial";
+        font-family: @primary-font-family ;         
         font-weight: @primary-font-weight;
     }
 }
 .prices {
     display: inline-block;
     background-color: green;
-    width: 1300px;
+    width: 1500px;
     height: 700px ;
     .placestxt {
         font-weight: @primary-font-weight;
         color: white;
-        font-family: "Arial";
+        font-family: @primary-font-family ;
         text-align: center;
         font-size: 26px;
         margin-top: 3em;
     }
     .places-text {
         color: white;
-        font-family: "Arial";
+        font-family: @primary-font-family;
         text-align: center;
     }
     .button2 {
-        margin-left: 80em;
-        margin-top: -40px;
+        margin-left: 90em;
         border-radius: 6px;
         border-style: solid;
         border-width: 1px;
@@ -188,5 +192,109 @@ header {
         font-size: 0.70em;
         font-weight: 600;
         text-align: center;
+        position: absolute;
+        margin-top: -8em;
+    }
+    .table-one {
+        background-color: white;
+        width: 18em;
+        height: 30em;
+        margin-left: 16em;
+        margin-top: 3em;
+        h1 {
+            font-weight: @primary-font-weight;
+            font-size: 13px;
+            font-family: @primary-font-family;
+            margin-left: 4em;
+            position: absolute;
+            margin-top: 3em;
+        }
+        .table-one-img{
+            width: 13em;
+            margin-left: 2.5em;
+            margin-top: 5em;
+        }
+        .table-one-text {
+            font-weight: @primary-font-weight;
+            font-family: @primary-font-family;
+            margin-left: 4em;
+            font-size: 18px;
+        }
+        p {
+            margin-left: 6em;
+            font-weight: @primary-font-weight;
+            font-family: @primary-font-family;
+            font-size: 12px;
+        }
+        .button3 {
+            margin-left: 6em;
+            border-radius: 6px;
+            border-style: solid;
+            border-width: 1px;
+            border-color:  #ffba15;
+            background-color: #ffba15;
+            color:white;
+            box-sizing: border-box;
+            box-shadow: 4px 7px 13px 0px rgba(0, 0, 0, 0.04);
+            width: 150px;
+            height: 45px;
+            font-size: 0.70em;
+            font-weight: 600;
+            text-align: center;
+            position: absolute;
+            margin-top: 7em;
+        }
+    }
+    .table-two {
+        background-color: white;
+        width: 18em;
+        height: 30em;
+        margin-left: 20em;
+        position: absolute;
+        margin-top: -20.6em;
+        .button4 {
+            margin-left: 6em;
+            border-radius: 6px;
+            border-style: solid;
+            border-width: 1px;
+            border-color:  #ffba15;
+            background-color: #ffba15;
+            color:white;
+            box-sizing: border-box;
+            box-shadow: 4px 7px 13px 0px rgba(0, 0, 0, 0.04);
+            width: 150px;
+            height: 45px;
+            font-size: 0.70em;
+            font-weight: 600;
+            text-align: center;
+            position: absolute;
+            margin-top: 2.5em;
+        }
+    }
+    .table3 {
+        background-color: white;
+        width: 18em;
+        height: 30em;
+        margin-left: 40em;
+        position: absolute;
+        margin-top: -20.6em;
+        .button5 {
+            margin-left: 6em;
+            border-radius: 6px;
+            border-style: solid;
+            border-width: 1px;
+            border-color:  #ffba15;
+            background-color: #ffba15;
+            color:white;
+            box-sizing: border-box;
+            box-shadow: 4px 7px 13px 0px rgba(0, 0, 0, 0.04);
+            width: 150px;
+            height: 45px;
+            font-size: 0.70em;
+            font-weight: 600;
+            text-align: center;
+            position: absolute;
+            margin-top: 0.5em;
+        }
     }
 }
