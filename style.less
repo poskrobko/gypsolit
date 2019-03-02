@@ -1,33 +1,33 @@
+@primary-font-size: 1em;
+@primary-font-weight: bold;
 header {
    background-image: url(background-gypsolit.png);
    font-family: 'Open Sans', sans-serif;
-   width: 1250px;
-   height: 680px;
-.logo-text1-gypsolit {
-      font-weight: bold;
-       font-size: 1em;
+   width: 1510px;
+   height: 700px;
+.text1-gypsolit {
+      font-weight: @primary-font-weight;
+       font-size: @primary-font-size;
        margin-top: 1.5em;
        margin-left: 13em;
        .position()
    }
-   .logo-text2-gypsolit {
-       font-size: 1em;
+   .text2-gypsolit {
+       font-size: @primary-font-size ;
        margin-top: 3em;
        margin-left: 13em;
-       .position()
-   }
-   .logo-img-gypsolit {
        .position()
    }
    .telephone-gypsolit {
        font-size: 1.25em;
        text-align: left;
+       font-weight: @primary-font-weight;
        margin-top: 2em;
-       margin-left: 800px;
+       margin-left: 50em;
        .position()
    }
    button {
-       margin-left: 1000px;
+       margin-left: 100em;
        margin-top: 30px;
        border-radius: 8px;
        border-style: solid;
@@ -43,21 +43,21 @@ header {
        font-weight: 600;
        text-align: center;
    }
-   .wall-plaster {
-      font-weight: bold;
+   .wall-text1-item {
+      font-weight: @primary-font-weight;
        font-size: 35px;
        line-height: 58px;
        text-align: left;
        margin-left: 200px;
        margin-top: 104px;
    }
-   .smooth-walls {
+   .wall-text2-item {
        font-size: 24px;
        text-align: left;
        margin-left: 210px;
        margin-top: 3px;
    }
-   .cost-of-work {
+   .work {
        background-color: green;
        width: 225px;
        height: 100px;
@@ -67,21 +67,21 @@ header {
        margin-left: 210px;
        margin-top: 60px;
    }
-   .payment-fact {
+   .logo-fact {
        margin-left: 210px;
-       font-weight: bold;
+       font-weight: @primary-font-weight;
        font-size: 20px;
        line-height: 58px;
        text-align: left;
    }
-   .form-area {
+   .form{
        background-color: white;
        width: 300px;
-       height: 360px;
+       height: 380px;
        margin-top: -445px;
-       margin-left: 900px;
+       margin-left: 1100px;
    }
-   .text-area {
+   .text-form {
        font-size: 15px;
        text-align: center;
    }
@@ -89,33 +89,104 @@ header {
          text-align: left;
          font-size: 13px;
          font-family: "Arial";
-         margin-left: 8em;
+         margin-left: 9em;
    }
    .form-control {
-      border-radius: 1px;
-      height: 28px;
-      width: 86%;
-      margin-top: 3%;
+      height: 30px;
+      width: 17em;
+      border-radius: 3px;
+      margin-top: 10px;
+      margin-left: 32px;
    }
-   .input-button {
+   .input-submit {
+       width: 230px;
+       height: 60px;
+       background-color: #ffba15;
+       color: white;
+       margin-left: 32px;
+       margin-top: 19px;
        border-radius: 8px;
        border-style: solid;
        border-width: 1px;
        border-color:  #ffba15;
        box-sizing: border-box;
        box-shadow: 4px 7px 13px 0px rgba(0, 0, 0, 0.04);
-       width: 250px;
-       height: 60px;
-       background-color: #ffba15;
-       color: white;
-       margin-left: 25px;
-       margin-top: 19px;
    }
-   input {
-       border-radius: 8px;
+   .form-text-item{
+       text-align: center;
+       font-size: 10px;
+   }
+   .workday-item{
+       float: left;
+       margin-left: 103em;
+       font-size: 11px; 
    }
 }
 .position {
    float: left;
    position: absolute;
+}
+.preview {
+    background-color: white;
+    .preview-item {
+        margin-left: 150px;
+    }
+    .preview-title {
+       text-align: center;
+       font-weight: @primary-font-weight;
+       font-size: 25px;
+       font-family: "Arial";
+    }
+    .preview-table-text{
+        float: left;
+        margin-bottom: 120px;
+        margin-top: 5em;
+        width: 250px;
+        text-align: center;
+        font-size: 13px;
+        font-family: "Arial";
+    }
+    .preview-text {
+        text-align: center;
+        font-size: 16px;
+        margin: 40px;
+        font-family: "Arial";
+        font-weight: @primary-font-weight;
+    }
+}
+.prices {
+    display: inline-block;
+    background-color: green;
+    width: 1300px;
+    height: 700px ;
+    .placestxt {
+        font-weight: @primary-font-weight;
+        color: white;
+        font-family: "Arial";
+        text-align: center;
+        font-size: 26px;
+        margin-top: 3em;
+    }
+    .places-text {
+        color: white;
+        font-family: "Arial";
+        text-align: center;
+    }
+    .button2 {
+        margin-left: 80em;
+        margin-top: -40px;
+        border-radius: 6px;
+        border-style: solid;
+        border-width: 1px;
+        border-color:  #ffba15;
+        background-color: #ffba15;
+        color:white;
+        box-sizing: border-box;
+        box-shadow: 4px 7px 13px 0px rgba(0, 0, 0, 0.04);
+        width: 235px;
+        height: 50px;
+        font-size: 0.70em;
+        font-weight: 600;
+        text-align: center;
+    }
 }
