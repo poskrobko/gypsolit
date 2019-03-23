@@ -498,3 +498,118 @@ header .workday-item {
   width: 18em;
   font-size: 13px;
 }
+.everything_is_100_icluded {
+  display: inline-block;
+  background-color: ghostwhite;
+  width: 93.7em;
+  height: 25em ;
+}
+.everything_is_100_icluded .everything_is_100_icluded-title {
+  font-weight: bold;
+  color: green;
+  font-family: "Arial";
+  font-size: 30px;
+  margin-left: 18.5em;
+}
+.everything_is_100_icluded .everything_is_100_icluded-txt {
+  font-family: "Arial";
+  font-size: 12px;
+  margin-left: 45em;
+}
+.everything_is_100_icluded .everything_is_100_icluded-tabletext1 {
+  margin-left: 15em;
+  margin-top: 5em;
+}
+.everything_is_100_icluded .everything_is_100_icluded-tabletext1 .title1 {
+  font-weight: bold;
+  font-size: 12px;
+  font-family: "Arial";
+}
+.everything_is_100_icluded .everything_is_100_icluded-tabletext1 .title1-text {
+  width: 18em;
+  font-size: 10px;
+  margin-top: -1em;
+  font-family: "Arial";
+}
+.everything_is_100_icluded .everything_is_100_icluded-tabletext2 {
+  margin-left: 35em;
+  margin-top: -3em;
+}
+.everything_is_100_icluded .everything_is_100_icluded-tabletext2 .title2 {
+  font-weight: bold;
+  font-size: 12px;
+  width: 17em;
+  font-family: "Arial";
+}
+.everything_is_100_icluded .everything_is_100_icluded-tabletext3 {
+  margin-left: 53em;
+  margin-top: -2.5em;
+}
+.everything_is_100_icluded .everything_is_100_icluded-tabletext3 .title3 {
+  font-weight: bold;
+  font-size: 12px;
+  font-family: "Arial";
+}
+.everything_is_100_icluded .everything_is_100_icluded-tabletext3 .title3-text {
+  width: 18em;
+  font-size: 10px;
+  margin-top: -1em;
+  font-family: "Arial";
+}
+.everything_is_100_icluded .everything_is_100_icluded-tabletext4 {
+  margin-left: 70em;
+  margin-top: -2.5em;
+}
+.everything_is_100_icluded .everything_is_100_icluded-tabletext4 .title4 {
+  font-weight: bold;
+  font-size: 12px;
+  width: 17em;
+  font-family: "Arial";
+}
+.everything_is_100_icluded .everything_is_100_icluded-tabletext5 {
+  margin-left: 15em;
+  margin-top: 7em;
+}
+.everything_is_100_icluded .everything_is_100_icluded-tabletext5 .title5 {
+  font-weight: bold;
+  font-size: 12px;
+  font-family: "Arial";
+}
+.everything_is_100_icluded .everything_is_100_icluded-tabletext6 {
+  margin-left: 35em;
+  margin-top: -1.5em;
+}
+.everything_is_100_icluded .everything_is_100_icluded-tabletext6 .title6 {
+  font-weight: bold;
+  font-size: 12px;
+  font-family: "Arial";
+}
+.everything_is_100_icluded .everything_is_100_icluded-tabletext7 {
+  margin-left: 53em;
+  margin-top: -1.5em;
+}
+.everything_is_100_icluded .everything_is_100_icluded-tabletext7 .title7 {
+  font-weight: bold;
+  font-size: 12px;
+  font-family: "Arial";
+}
+.everything_is_100_icluded .everything_is_100_icluded-tabletext8 {
+  margin-left: 70em;
+  margin-top: -1.5em;
+}
+.everything_is_100_icluded .everything_is_100_icluded-tabletext8 .title8 {
+  font-weight: bold;
+  font-size: 12px;
+  font-family: "Arial";
+}
+.we_will_dispel_all_fears .we_will_dispel_all_fears-title {
+  font-weight: bold;
+  font-size: 25px;
+  font-family: "Arial";
+  margin-left: 23em;
+  margin-top: 3em;
+}
+.we_will_dispel_all_fears .woman-img {
+  margin-left: 32em;
+  margin-top: 2em;
+}
