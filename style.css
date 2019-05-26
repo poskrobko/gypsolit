@@ -87,11 +87,17 @@ header .text-form {
   font-size: 15px;
   text-align: center;
 }
-header .form-name {
+header .form-name1 {
   text-align: left;
   font-size: 13px;
   font-family: "Arial";
-  margin-left: 9em;
+  margin-left: 8.5em;
+}
+header .form-name2 {
+  text-align: left;
+  font-size: 13px;
+  font-family: "Arial";
+  margin-left: 7em;
 }
 header .form-control {
   height: 30px;
@@ -99,6 +105,7 @@ header .form-control {
   border-radius: 3px;
   margin-top: 10px;
   margin-left: 32px;
+  border: 1px solid lightgray;
 }
 header .input-submit {
   width: 230px;
@@ -526,89 +533,134 @@ header .workday-item {
 }
 .everything_is_100_icluded .everything_is_100_icluded-tabletext1 {
   margin-left: 15em;
-  margin-top: 5em;
+  margin-top: 2.5em;
+}
+.everything_is_100_icluded .everything_is_100_icluded-tabletext1 .photo1 {
+  margin-left: -5%;
 }
 .everything_is_100_icluded .everything_is_100_icluded-tabletext1 .title1 {
   font-weight: bold;
   font-size: 12px;
   font-family: "Arial";
+  position: absolute;
+  margin-top: -4em;
 }
 .everything_is_100_icluded .everything_is_100_icluded-tabletext1 .title1-text {
   width: 18em;
   font-size: 10px;
-  margin-top: -1em;
+  margin-top: -3em;
   font-family: "Arial";
 }
 .everything_is_100_icluded .everything_is_100_icluded-tabletext2 {
   margin-left: 35em;
   margin-top: -3em;
 }
+.everything_is_100_icluded .everything_is_100_icluded-tabletext2 .photo2 {
+  margin-left: -6%;
+}
 .everything_is_100_icluded .everything_is_100_icluded-tabletext2 .title2 {
   font-weight: bold;
   font-size: 12px;
   width: 17em;
   font-family: "Arial";
+  position: absolute;
+  margin-top: -3em;
 }
 .everything_is_100_icluded .everything_is_100_icluded-tabletext3 {
   margin-left: 53em;
-  margin-top: -2.5em;
+  margin-top: -3em;
+}
+.everything_is_100_icluded .everything_is_100_icluded-tabletext3 .photo3 {
+  margin-left: -9%;
 }
 .everything_is_100_icluded .everything_is_100_icluded-tabletext3 .title3 {
   font-weight: bold;
   font-size: 12px;
   font-family: "Arial";
+  position: absolute;
+  margin-top: -3em;
 }
 .everything_is_100_icluded .everything_is_100_icluded-tabletext3 .title3-text {
   width: 18em;
   font-size: 10px;
-  margin-top: -1em;
+  margin-top: -2em;
   font-family: "Arial";
 }
 .everything_is_100_icluded .everything_is_100_icluded-tabletext4 {
   margin-left: 70em;
   margin-top: -2.5em;
 }
+.everything_is_100_icluded .everything_is_100_icluded-tabletext4 .photo4 {
+  margin-left: -16%;
+  margin-top: -1em;
+}
 .everything_is_100_icluded .everything_is_100_icluded-tabletext4 .title4 {
   font-weight: bold;
   font-size: 12px;
   width: 17em;
   font-family: "Arial";
+  position: absolute;
+  margin-top: -3em;
 }
 .everything_is_100_icluded .everything_is_100_icluded-tabletext5 {
   margin-left: 15em;
   margin-top: 7em;
 }
+.everything_is_100_icluded .everything_is_100_icluded-tabletext5 .photo5 {
+  margin-left: -5%;
+  margin-top: -3em;
+}
 .everything_is_100_icluded .everything_is_100_icluded-tabletext5 .title5 {
   font-weight: bold;
   font-size: 12px;
   font-family: "Arial";
+  position: absolute;
+  margin-top: -3em;
 }
 .everything_is_100_icluded .everything_is_100_icluded-tabletext6 {
   margin-left: 35em;
   margin-top: -1.5em;
 }
+.everything_is_100_icluded .everything_is_100_icluded-tabletext6 .photo6 {
+  margin-left: -6%;
+  margin-top: -3em;
+}
 .everything_is_100_icluded .everything_is_100_icluded-tabletext6 .title6 {
   font-weight: bold;
   font-size: 12px;
   font-family: "Arial";
+  position: absolute;
+  margin-top: -3em;
 }
 .everything_is_100_icluded .everything_is_100_icluded-tabletext7 {
   margin-left: 53em;
   margin-top: -1.5em;
 }
+.everything_is_100_icluded .everything_is_100_icluded-tabletext7 .photo7 {
+  margin-left: -9%;
+  margin-top: -3em;
+}
 .everything_is_100_icluded .everything_is_100_icluded-tabletext7 .title7 {
   font-weight: bold;
   font-size: 12px;
   font-family: "Arial";
+  position: absolute;
+  margin-top: -3em;
 }
 .everything_is_100_icluded .everything_is_100_icluded-tabletext8 {
   margin-left: 70em;
   margin-top: -1.5em;
 }
+.everything_is_100_icluded .everything_is_100_icluded-tabletext8 .photo8 {
+  margin-left: -16%;
+  margin-top: -3em;
+}
 .everything_is_100_icluded .everything_is_100_icluded-tabletext8 .title8 {
   font-weight: bold;
   font-size: 12px;
   font-family: "Arial";
+  position: absolute;
+  margin-top: -3em;
 }
 .we_will_dispel_all_fears .we_will_dispel_all_fears-title {
   font-weight: bold;
@@ -663,16 +715,16 @@ header .workday-item {
   font-weight: bold;
   font-size: 25px;
   font-family: "Arial";
-  margin-left: 23em;
+  margin-left: 26em;
   margin-top: 3em;
 }
 .materials .materials-txt {
   font-family: "Arial";
   font-size: 12px;
-  margin-left: 30em;
+  margin-left: 35em;
 }
 .materials .materials-description .materials-table {
-  margin-left: 12%;
+  margin-left: 17%;
   margin-top: 3%;
 }
 .materials .materials-description .materials-table .ceresit-img1-title {
@@ -695,7 +747,7 @@ header .workday-item {
   color: lightgreen;
 }
 .materials .materials-description .materials-table2 {
-  margin-left: 26%;
+  margin-left: 31%;
   margin-top: -18.5%;
 }
 .materials .materials-description .materials-table2 .ceresit-img2-title {
@@ -718,7 +770,7 @@ header .workday-item {
   color: lightgreen;
 }
 .materials .materials-description .materials-table3 {
-  margin-left: 42%;
+  margin-left: 48%;
   margin-top: -18.5%;
 }
 .materials .materials-description .materials-table3 .ceresit-img3-title {
@@ -741,7 +793,7 @@ header .workday-item {
   color: lightgreen;
 }
 .materials .materials-description .materials-table4 {
-  margin-left: 57%;
+  margin-left: 65%;
   margin-top: -18.5%;
 }
 .materials .materials-description .materials-table4 .ceresit-img4-title {
@@ -767,23 +819,27 @@ header .workday-item {
   font-weight: bold;
   font-size: 25px;
   font-family: "Arial";
-  margin-left: 18%;
-  margin-top: -18em;
+  margin-left: 22%;
+  position: absolute;
+  margin-top: -13em;
 }
 .plaster .plaster-item h4 {
   font-weight: bold;
   font-size: 25px;
   font-family: "Arial";
-  margin-left: 18%;
-  margin-top: -0.2em;
+  margin-left: 22%;
+  position: absolute;
+  margin-top: -11em;
 }
 .plaster .plaster-item .plaster-table-text {
   font-weight: bold;
   font-size: 13px;
   font-family: "Arial";
   color: gray;
-  width: 18%;
-  margin-left: 18%;
+  width: 20%;
+  margin-left: 22%;
+  position: absolute;
+  margin-top: -18%;
 }
 .additional-services {
   display: inline-block;
@@ -889,4 +945,40 @@ header .workday-item {
   text-align: center;
   position: absolute;
   margin-top: 1em;
+}
+footer {
+  width: 90%;
+  float: left;
+}
+footer .footer-item {
+  float: left;
+  margin-left: 90px;
+  margin-top: 20px;
+}
+footer .footer-item .footer-logo {
+  float: left;
+}
+footer .footer-item .logo-text {
+  float: left;
+  margin-left: 10px;
+  margin-top: 5px;
+  width: 140px;
+  font-family: "Arial";
+}
+footer .info {
+  margin-top: 15px;
+  text-align: center;
+  float: left;
+  margin-left: 350px;
+  font-family: "Arial";
+}
+footer .info .tel {
+  font-weight: bold;
+}
+footer .kang {
+  float: right;
+  margin-top: 20px;
+  margin-right: 70px;
+  font-size: 15px;
+  font-family: "Arial";
 }
